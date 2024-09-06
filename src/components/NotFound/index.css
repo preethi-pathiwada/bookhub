@@ -1,0 +1,33 @@
+.not-found-container {
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px 20px 30px 20px;
+}
+
+.notfound-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-img {
+  width: 80%;
+  height: 60%;
+}
+
+.heading2 {
+  text-align: center;
+}
+
+.para2 {
+  text-align: center;
+}
+
+.btn {
+  min-width: 170px;
+  max-width: 220px;
+}

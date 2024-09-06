@@ -1,0 +1,129 @@
+.home-bg {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.home-container {
+  padding: 22px 0px 22px 0px;
+}
+
+.container1 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.container2 {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 13px;
+}
+
+.carousel-container {
+  background-color:;
+  padding: 20px;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.home-heading2 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.find-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  cursor: pointer;
+  width: 100px;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: none;
+}
+
+.arrow-btn {
+  background-color: #989898;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-rated-books {
+  background-color: #ffffff;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  background-color: #989898;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  width: 50%;
+  height: 40%;
+}
+
+@media all and (min-width: 768px) {
+  .home-container {
+    padding: 22px;
+  }
+
+  .home-heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 25px;
+  }
+  .social-icon {
+    font-size: 30px;
+  }
+
+  .home-heading2 {
+    font-size: 27px;
+  }
+
+  .failure-img {
+    width: 20%;
+    height: 30%;
+    margin-bottom: 22px;
+  }
+
+  .find-btn {
+    font-size: 17px;
+    width: 150px;
+  }
+}

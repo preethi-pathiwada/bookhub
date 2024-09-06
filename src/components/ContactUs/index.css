@@ -1,0 +1,30 @@
+.contact-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  color: #3d3c3c;
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+@media all and (min-width:768px){
+  .social-icon{
+    font-size: 30px;
+  }
+}
