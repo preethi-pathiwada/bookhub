@@ -72,6 +72,7 @@ const Login = props => {
                   type="text"
                   className="input"
                   id="name"
+                  placeholder="rahul"
                   onChange={changeName}
                   value={username}
                 />
@@ -84,6 +85,7 @@ const Login = props => {
                   type="password"
                   className="input"
                   id="password"
+                  placeholder="rahul@2021"
                   onChange={changePassword}
                   value={password}
                 />
